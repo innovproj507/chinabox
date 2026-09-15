@@ -1,0 +1,27 @@
+# Dependencias
+/vendor/
+composer.phar
+
+# Variables de entorno / configuración local
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+error.log
+
+# Archivos temporales / backups manuales
+*.phpbk
+*.bak
+*.tmp
+
+# Sistema Windows / editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Binarios locales de impresión (dependen de la máquina)
+/bin/

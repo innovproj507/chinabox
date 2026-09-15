@@ -1,0 +1,16 @@
+{
+    "name": "chinabox/facturacion-php",
+    "description": "Sistema de Facturación ChinaBox en PHP",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "vlucas/phpdotenv": "*",
+        "phpoffice/phpspreadsheet": "*",
+        "dompdf/dompdf": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
