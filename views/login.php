@@ -24,8 +24,8 @@
         <p class="text-gray-500 mt-2">Ingresa tus credenciales para continuar</p>
     </div>
 
-    <?php if (\App\Core\Flash::hasMessages()): ?>
-        <?php foreach (\App\Core\Flash::get() as $msg): ?>
+    <?php if (!empty($flash_messages)): ?>
+        <?php foreach ($flash_messages as $msg): ?>
             <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
                 <span class="block sm:inline"><?= $msg['message'] ?></span>
             </div>
